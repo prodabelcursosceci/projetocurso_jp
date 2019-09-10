@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/about', function (){
+    echo "Essa aplicação é a primeira do curso";
+});
+
+Route::get('/phpinfo', function (){
+    phpinfo();
+});
+Route::get('/hellocontroller', "TesteController@index" );
+
+Route::get('/hellocontroller/{nome2}', "TesteController@index2" );
+

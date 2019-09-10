@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "prodabel/projetocursolaravel",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Projeto usando: The Laravel Framework.",
     "keywords": [
         "framework",
         "laravel"

@@ -81,17 +81,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Primeiro Projeto Laravel
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="http://pbh.gov.br" target="_blank" >PBH</a>
+                    <a href="/phpinfo" target="_blank">Developer</a>
+                    <a href="/about">Sobre</a>
+                    <a href="http://google.com">Dúvidas</a>
+                    <a href="/hellocontroller?nome=Joao">Controller</a>
+                    <a href="/hellocontroller/JOOOOOAAAAAOOOO">Controller via2</a>
+                    
                 </div>
             </div>
         </div>
