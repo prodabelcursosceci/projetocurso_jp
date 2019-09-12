@@ -26,3 +26,8 @@ Route::get('/hellocontroller', "TesteController@index" );
 
 Route::get('/hellocontroller/{nome2}', "TesteController@index2" );
 
+Route::view('/welcome2','welcome');
+
+Route::post('/hellocontroller', "TesteController@post_index");
+
+
