@@ -11,6 +11,8 @@
 |
 */
 
+use SebastianBergmann\Environment\Console;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -22,12 +24,22 @@ Route::get('/about', function (){
 Route::get('/phpinfo', function (){
     phpinfo();
 });
-Route::get('/hellocontroller', "TesteController@index" );
 
 Route::get('/hellocontroller/{nome2}', "TesteController@index2" );
 
 Route::view('/welcome2','welcome');
 
-Route::post('/hellocontroller', "TesteController@post_index");
+
+Route::middleware('checkage')->group(function(){
+    
+    Route::get('/hellocontroller', "TesteController@index" );
+    Route::post('/hellocontroller', "TesteController@post_index");
+    
+});
 
 
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
