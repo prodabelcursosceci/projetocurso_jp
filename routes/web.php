@@ -43,3 +43,5 @@ Route::middleware('checkage')->group(function(){
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('cidades','CidadeController');//Cria um monte de rotas
