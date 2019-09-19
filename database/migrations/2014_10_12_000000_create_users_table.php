@@ -1,7 +1,8 @@
 <?php
-
-use Illuminate\Support\Facades\Schema;
+require_once(__DIR__.'/../../app/Blueprint.php');
 use Illuminate\Database\Schema\Blueprint;
+use ProjetoCurso\app\Blueprint2;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Migrations\Migration;
 
 class CreateUsersTable extends Migration

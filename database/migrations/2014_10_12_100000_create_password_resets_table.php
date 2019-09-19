@@ -1,7 +1,8 @@
 <?php
-
-use Illuminate\Support\Facades\Schema;
+require_once(__DIR__.'/../../app/Blueprint.php');
+//use ProjetoCurso\app\Blueprint;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Migrations\Migration;
 
 class CreatePasswordResetsTable extends Migration

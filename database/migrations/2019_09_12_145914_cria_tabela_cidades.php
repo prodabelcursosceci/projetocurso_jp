@@ -1,4 +1,6 @@
 <?php
+require_once(__DIR__.'/../../app/Blueprint.php');
+//use ProjetoCurso\app\Blueprint;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;

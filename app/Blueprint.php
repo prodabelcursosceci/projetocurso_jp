@@ -1,11 +1,11 @@
 <?php
 
-namespace Illuminate\Database\Schema;
-
-use Illuminate\Database\Schema\Blueprint as BaseBluePrint;
+//namespace Illuminate\Database\Schema;
+namespace ProjetoCurso\app;
+use Illuminate\Database\Schema\Blueprint;
 use PhpParser\Builder\Class_;
 
-Class Blueprint extends BaseBluePrint {
+Class Blueprint2 extends BluePrint {
 
     public function timestamps($precision = 0)
     {
